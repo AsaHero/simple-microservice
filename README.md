@@ -5,8 +5,8 @@ Traning project. The main purpuse of the project is to implement microservice ar
 Here you can find the dump of database. If you want to test the program you can resotre it.
 
 ### cmd
-/server - to start grpc server within laptop service
-/clinet - a simple client connecting to laptop service server and call create laptop method
+- /server - to start grpc server within laptop service
+- /clinet - a simple client connecting to laptop service server and call create laptop method
 
 ### config
 Here you can find all configurations, sush as port, host, user, and so on.
