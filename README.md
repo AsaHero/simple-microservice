@@ -12,8 +12,8 @@ Here you can find the dump of database. If you want to test the program you can 
 Here you can find all configurations, sush as port, host, user, and so on.
 
 ### pb & proto
-/proto - all proto files
-/pb - generated code from protos
+> /proto - all proto files
+> /pb - generated code from protos
 
 ### migrations
 Database migrations. You can make changes and use command in Makefile to migrate up.
