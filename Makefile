@@ -6,8 +6,10 @@ proto_gen:
 clear:
 	rm pb/*.go
 
-run:
-	go run main.go
+run_server:
+	go run cmd/server/main.go
+run_clinet:
+	go run cmd/client/main.go
 
 migrate-up:
 	migrate -source file://migrations -database postgres://asad:Tashkent2001@localhost:5432/laptop_service up
