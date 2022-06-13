@@ -1,0 +1,7 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/asad/go/src/github.com/AsaHero/simple-microservice'
+protoc --proto_path=proto --go_out=pb --go_opt=paths=source_relative \
+    --go-grpc_out=pb --go-grpc_opt=paths=source_relative \
+    proto/*.proto
+make: Leaving directory '/home/asad/go/src/github.com/AsaHero/simple-microservice'
+ 
