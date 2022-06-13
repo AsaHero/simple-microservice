@@ -17,4 +17,4 @@ migrate-up:
 migrate-down:
 	migrate -source file://migrations -database postgres://asad:Tashkent2001@localhost:5432/laptop_service down
 
-.PHONY: proto_gen clear run migrate-up migrate-down
+.PHONY: proto_gen clear run_server run_client migrate-up migrate-down
